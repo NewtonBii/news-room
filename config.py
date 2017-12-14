@@ -6,6 +6,8 @@ class Config:
 
     NEWS_API_KEY = '47048b08e1bb49c194df8909a510c75d'
     # NEWS_API_BASE_URL = 'https://newsapi.org/v2/sources/{}?apiKey{}'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://newton:newton@localhost/news'
+    SECRET_KEY = 'you will never guess'
 
 
 class ProdConfig(Config):
